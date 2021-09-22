@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>browser related topics</title>
+    <style>
+        .container{
+            width: 50%;
+            margin: auto;
+            border: 3px solid gray;
+            text-align: center;
+            height: 400px;
+        }
+
+        h1{
+            border-bottom: 1px solid green;
+        }
+
+        #product-name{
+            height: 25px;
+            margin-bottom: 10px;
+            font-size: medium;
+        }
+
+        button{
+            width: 150px;
+            height: 35px;
+            background-color: hotpink;
+            border: none;
+            color: beige;
+            cursor: pointer;
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+       <h1>Shopping Card</h1>
+       <input type="text" id="product-name">
+       <button onclick="addItem()">Add item</button>
+       <ul id="products"></ul>
+       <br><br><br>
+       <button onclick="placeOrder()">Place Order</button>
+   </div>
+    <script src="alert.js"></script>
+</body>
+</html>
